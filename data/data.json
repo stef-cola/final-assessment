@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "type": "Car",
+    "manufacturer": "Mitsibishi",
+    "model": "Colt",
+    "price": 12000,
+    "description": "The Colt-a-saurus Mach 2 is now available.",
+    "details": {
+      "kms": 199999,
+      "doors": 5,
+      "year": 2009
+    },
+    "image":"colt"
+  },
+  {
+    "id": 2,
+    "type": "Car",
+    "manufacturer": "Kia",
+    "model": "Rio",
+    "price": 2000,
+    "description": "The Kia Rio is a perfect family car.",
+    "details": {
+      "kms": 289089,
+      "doors": 5,
+      "year": 2002
+    },
+    "image":"kia-rio"
+  },
+  {
+    "id": 3,
+    "type": "Car",
+    "manufacturer": "Nissan",
+    "model": "SUV",
+    "price": 22000,
+    "description": "This second hand Nissan SUV is now available.",
+    "details": {
+      "kms": 87000,
+      "doors": 5,
+      "year": 2007
+    },
+    "image":"nissan-suv"
+  },
+  {
+    "id": 4,
+    "type": "Car",
+    "manufacturer": "Honda",
+    "model": "Accord",
+    "price": 8000,
+    "description": "The Honda is a great family car.",
+    "details": {
+      "kms": 21780,
+      "doors": 5,
+      "year": 2012
+    },
+    "image":"honda-accord"
+  },
+  {
+    "id": 5,
+    "type": "Motorbike",
+    "manufacturer": "Kawasaki",
+    "model": "Ninja",
+    "price": 12000,
+    "description": "Be a ninja on the road.",
+    "details": {
+      "kms": 21780,
+      "doors": "n/a",
+      "year": 2016
+    },
+    "image":"kawasaki-ninja"
+  },
+  {
+    "id": 6,
+    "type": "Car",
+    "manufacturer": "Honda",
+    "model": "Civic",
+    "price": 8000,
+    "description": "The Honda is a great family car.",
+    "details": {
+      "kms": 24580,
+      "doors": 5,
+      "year": 2011
+    },
+    "image":"honda-civic"
+  }
+]
