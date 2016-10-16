@@ -1,0 +1,50 @@
+<div class="container" ng-controller="signupController">
+    <div class="col-sm-12">
+        <h1>Sign Up</h1>
+        <div class="container">
+
+            <form class="well form-horizontal" id="signup-form">
+                <fieldset>
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Name</label>
+                        <div class="col-md-4 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                <input name="name" placeholder="Name" class="form-control" type="text" ng-model="name">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">E-Mail</label>
+                        <div class="col-md-4 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                <input name="email" placeholder="E-Mail Address" class="form-control" type="text" ng-model="email" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">password</label>
+                        <div class="col-md-4 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-eye-close"></i></span>
+                                <input name="password" placeholder="********" class="form-control" type="password" ng-model="password" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="alert alert-success" role="alert" ng-show="result">Success <i class="glyphicon glyphicon-thumbs-up"></i> {{result.message}}</div>
+                    <div class="alert alert-danger" role="alert" ng-show="error"><i class="glyphicon glyphicon-thumbs-down"></i> There was an issue. Please try again.</div>
+                    <div class="form-group">
+                        <label class="col-md-4 control-label"></label>
+                        <div class="col-md-4">
+                            <button ng-click="signup()" class="btn btn-success">Sign Up</button>
+                        </div>
+                    </div>
+
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <script src="scripts/form.js"></script>
+</div>
+</div>
